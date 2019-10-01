@@ -290,7 +290,10 @@ main{
 	padding: 20px;
 	font-size: 14px;
 }
-
+.card:hover{
+	transform:scale(1.2);
+	transition-duration: 1s;
+}
 .card__title{
 	font-size: 22px;
 	font-weight: 600;
