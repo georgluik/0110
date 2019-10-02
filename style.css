@@ -424,7 +424,7 @@ input[type="text"]{
 input[type="text"]:focus + .line{
 	background-color:black;
 	margin:0;
-	transition: 1s;	
+	transition: .5s;	
 }
 .line{
 	height:3px;
@@ -433,6 +433,11 @@ input[type="text"]:focus + .line{
 
 
 
+input[type="checkbox"]:checked{
+	
+	transform: scale(1.5) rotate(360deg);
+	transition-duration: .5s;	
+}
 
 
 
