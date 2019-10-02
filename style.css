@@ -378,3 +378,65 @@ main{
 	border-color: #03A9F4;
 }
 
+/* form*/ 
+
+.form{
+	height:40vh;
+	background:#ECEFF1;
+}
+form{
+	display:flex;
+	flex-wrap: wrap;
+	max-width:40%;
+	margin:auto;
+	justify-content: space-between;
+	padding-top:20px;
+}
+.form p{
+	margin-top: 40px;
+
+}
+
+.name{
+	width:45%;
+
+}
+
+input[type="submit"]{
+	margin:auto;
+	padding:10px;
+	border-radius: 10%;
+	background: #CFD8DC;
+	margin-top: 50px;
+	width:100px;
+
+}
+input[type="text"]{
+	background: #CFD8DC;
+	padding:10px;
+	width:100%;
+	outline:0;
+}
+.checkbox-inline{
+	padding-top: 5%;
+	text-align:justify;
+}
+input[type="text"]:focus + .line{
+	background-color:black;
+	margin:0;
+	transition: 1s;	
+}
+.line{
+	height:3px;
+	margin:0 50%;
+}
+
+
+
+
+
+
+
+
+
+
